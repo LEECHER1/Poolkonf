@@ -1,0 +1,25 @@
+{
+  "name": "poolkonf",
+  "version": "1.0.0",
+  "description": "Pool Konfigurator Code von Cinema4D -- coding: utf-8 -- \"\"\" Cinema 4D Python_Generator – Pool + Schacht + Stein-Instanzen + Boden + Einbauteile \"\"\"",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "three": "^0.177.0"
+  }
+}
