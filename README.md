@@ -1,3 +1,22 @@
+# Pool Konfigurator
+
+Dieses Projekt portiert den Cinema‑4D‑Generator 1:1 nach Three.js. Die fertige Web‑App kann lokal per `npm run dev` gestartet oder über GitHub Pages veröffentlicht werden.
+
+## Lokale Vorschau
+
+```bash
+npm install
+npm run dev -- --host 0.0.0.0 --port 3000
+```
+
+Vite zeigt anschließend eine URL wie `http://localhost:3000/` und eine Netzwerk‑Adresse, über die Codex einen „Open in Browser“-Link bereitstellt.
+
+## Deployment über GitHub Pages
+
+Im Ordner `.github/workflows` befindet sich ein Workflow, der den Build erzeugt und automatisch nach jedem Push auf `main` auf GitHub Pages veröffentlicht. Nach der ersten Ausführung findet sich die Seiten‑URL in den Workflow‑Logs oder in den Pages‑Einstellungen des Repositories.
+
+---
+
 Pool Konfigurator Code von Cinema4D
 -- coding: utf-8 --
 """ Cinema 4D Python_Generator – Pool + Schacht + Stein-Instanzen + Boden + Einbauteile """
